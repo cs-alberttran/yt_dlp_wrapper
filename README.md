@@ -7,8 +7,9 @@ and other supported sites without touching the command line after setup.
 
 ## Author
 
-**trana**
-Contact: <!-- add your email or GitHub profile URL here -->
+**Albert "ssjalby / alby2k" Tran**
+
+Contact: tranalbert50@gmail.com
 
 ---
 
@@ -16,12 +17,12 @@ Contact: <!-- add your email or GitHub profile URL here -->
 
 - Download video (MP4, MKV, WebM, and more) or audio (MP3, FLAC, WAV, and more)
 - Quality and format selection
-- Automatic filename from video title (special characters stripped)
+- Automatic filename from video title 
 - Thumbnail preview that updates per video during playlist downloads
 - Subtitle download and embedding
 - Metadata and thumbnail embedding
 - Playlist range control
-- Dark / light theme toggle with persistent preference
+- light / dark theme toggle with persistent preference
 
 ---
 
@@ -62,12 +63,6 @@ FFmpeg handles audio/video merging. Download a Windows build from:
 
     https://www.gyan.dev/ffmpeg/builds/
 
-Download the file named ffmpeg-release-essentials.zip, extract it, and copy
-the three files inside the bin folder (ffmpeg.exe, ffprobe.exe, ffplay.exe)
-to a folder that is on your PATH, for example:
-
-    C:\Windows\System32
-
 Add the bin folder to your PATH manually:
 1. Open Start, search "Environment Variables"
 2. Under System Variables, select Path and click Edit
@@ -81,11 +76,11 @@ Verify:
 ### Step 3 - Download the app
 
 Download or clone this repository so that all files sit in one folder, for
-example C:\yt_dlp_next.
+example C:\Users\\"yourname"\yt_dlp_wrapper
 
 Then open Command Prompt and navigate to that folder:
 
-    cd C:\yt_dlp_next
+    cd C:\yt_dlp_wrapper
 
 ### Step 4 - Install Python dependencies
 
